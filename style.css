@@ -22,13 +22,13 @@
 body{
     margin: 0;
     padding: 0;
+    width:100%;
     font-family: var(--fontOne);
     overflow-x: hidden;
 }
 main{
     display: block;
     overflow-x:hidden;
-    width:100vw;
 }
 
 .head-content{
