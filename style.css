@@ -28,7 +28,7 @@ body{
 main{
     display: block;
     overflow-x:hidden;
-    padding:0 10px;
+    width:100vw;
 }
 
 .head-content{
