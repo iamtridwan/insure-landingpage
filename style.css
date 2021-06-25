@@ -266,7 +266,7 @@ nav ul li a:hover{
 }
 .attribution { font-size: 15px; text-align: center;  font-family: var(--fontTwo);}
 .attribution a { color: hsl(228, 45%, 44%); }
-@media screen and (max-width:500px){
+@media (max-width:500px){
     main{
         display: grid;
         grid-template-columns: 100%;
@@ -278,6 +278,7 @@ nav ul li a:hover{
         'four'
         'five'
         'six' ;
+        overflow-x:hidden;
     }
     .head-content{
         width: 90%;
