@@ -15,6 +15,7 @@
 *, *::after, *::before{
     list-style: none;
     box-sizing: border-box;
+    width:100%;
     
 }
 
@@ -27,6 +28,7 @@ body{
 main{
     display: block;
     overflow-x:hidden;
+    padding:0 10px;
 }
 
 .head-content{
