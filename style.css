@@ -12,19 +12,21 @@
     --fontTwo: Karla;
 }
 
-*{
+*, *::after, *::before{
     list-style: none;
-    box-sizing: border-box;   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    margin: 0;
-    padding: 0;
+    
     font-family: var(--fontOne);
     overflow-x: hidden;
 }
 main{
-    display: initial;
+    display: block;
+    overflow-x:hidden;
 }
 
 .head-content{
@@ -111,6 +113,7 @@ button{
     display: block;
     position: relative;
     z-index: 1;
+    outline:none;
 }
 
 
@@ -266,7 +269,9 @@ nav ul li a:hover{
 }
 .attribution { font-size: 15px; text-align: center;  font-family: var(--fontTwo);}
 .attribution a { color: hsl(228, 45%, 44%); }
-@media (max-width:500px){
+
+
+@media (max-width:375px){
     main{
         display: grid;
         grid-template-columns: 100%;
@@ -391,7 +396,7 @@ nav ul li a:hover{
         height: 60%;
         object-fit: contain;
         position: absolute;
-        right: 150px;
+        right: 200px;
         top: 460px;
     }
     #right{
